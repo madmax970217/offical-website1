@@ -1,0 +1,64 @@
+[{
+	"link" : "zxzy",
+	"name" : "教学资源",
+	"havesub" : true,
+	"sub" : [{
+				"subName" : "资源1",
+				"subLink" : "jxzy1"
+			},{
+				"subName" : "资源2",
+				"subLink" : "jxzy2"
+			}]
+},{
+	"link" : "jxpt",
+	"name" : "教学平台",
+	"havesub" : false
+},{
+	"link" : "zxgk",
+	"name" : "中心概况",
+	"havesub" : true,
+	"sub" : [{
+				"subName" : "概况1",
+				"subLink" : "zxgk1"
+			},{
+				"subName" : "概况2",
+				"subLink" : "zxgk2"
+			},{
+				"subName" : "概况3",
+				"subLink" : "zxgk3"
+			}]
+},{
+	"link" : "szdw",
+	"name" : "师资队伍",
+	"havsub" : false
+},{
+	"link" : "zygx",
+	"name" : "资源共享",
+	"havesub" : false
+},{
+	"link" : "sbhj",
+	"name" : "设备环境",
+	"havesub" : true,
+	"sub" : [{
+				"subName" : "环境1",
+				"subLink" : "sbhj1"
+			},{
+				"subName" : "环境2",
+				"subLink" : "sbhj2"
+			}]
+},{
+	"link" : "yxgl",
+	"name" : "运行管理",
+	"havesub" : false
+},{
+	"link" : "tscx",
+	"name" : "特色创新",
+	"havesub" : true,
+	"sub" : [{
+				"subName" : "创新1",
+				"subLink" : "tscx1"
+			},{
+				"subName" : "创新2",
+				"subLink" : "tscx2"
+			}]
+}]
