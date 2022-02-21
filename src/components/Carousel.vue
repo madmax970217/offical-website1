@@ -3,6 +3,9 @@
     <el-carousel height="320px">
       <el-carousel-item v-for="item in articleData" :key="item.moduleId">
         <img :src="item.pic" alt="" />
+        <div class="title">
+          <h1>{{ item.title }}</h1>
+        </div>
       </el-carousel-item>
     </el-carousel>
   </div>
@@ -32,9 +35,16 @@ export default {
   },
 };
 </script>
-<style>
+<style scoped>
 .el-carousel__item img {
   width: 100%;
   height: 100%;
+}
+.title {
+  position: absolute;
+  left: 20%;
+  top: 35%;
+  z-index: 9999;
+  color: aliceblue;
 }
 </style>

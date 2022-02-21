@@ -173,7 +173,12 @@
         </div>
         <div class="more"><a href="">MORE+</a></div>
       </div>
-      <div class="main"></div>
+      <div class="main">
+        <carousel></carousel>
+        <!-- <div class="carousel-title">
+          成果展示介绍文字
+        </div> -->
+      </div>
     </div>
     <div class="contentE container">
       <div class="title">
@@ -719,7 +724,22 @@ export default {
 }
 .contentD .main {
   width: 1200px;
+  height: 210px;
+  display: inline-block;
+  overflow: hidden;
+  margin-top: 20px;
 }
+/* .contentD .carousel-title {
+  width: 100px;
+  height: 50px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 9999;
+} */
 .ladyScroll {
   width: 1150px;
   height: 200;
