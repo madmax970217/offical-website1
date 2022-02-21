@@ -29,7 +29,7 @@ export default {
           _this.articleData = res.data;
         })
         .catch(function(err) {
-          console.log("请求轮播图数据出错");
+          console.log("请求轮播图数据出错", err);
         });
     },
   },

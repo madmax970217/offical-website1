@@ -30,25 +30,18 @@
 },{
 	"link" : "szdw",
 	"name" : "师资队伍",
-	"havsub" : false
+	"havesub" : false
 },{
 	"link" : "zygx",
 	"name" : "资源共享",
-	"havesub" : false
+	"havesub" : true,
+		"sub" : [{
+				"subName" : "资源1",
+				"subLink" : "zygx1"
+			}]
 },{
 	"link" : "sbhj",
 	"name" : "设备环境",
-	"havesub" : true,
-	"sub" : [{
-				"subName" : "环境1",
-				"subLink" : "sbhj1"
-			},{
-				"subName" : "环境2",
-				"subLink" : "sbhj2"
-			}]
-},{
-	"link" : "yxgl",
-	"name" : "运行管理",
 	"havesub" : false
 },{
 	"link" : "tscx",
@@ -61,4 +54,8 @@
 				"subName" : "创新2",
 				"subLink" : "tscx2"
 			}]
+},{
+	"link" : "yxgl",
+	"name" : "运行管理",
+	"havesub" : false
 }]
